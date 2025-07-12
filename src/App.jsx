@@ -2,6 +2,8 @@ import { useState } from 'react';
 import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
 import './App.css';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import { Accordion, AccordionItem } from "@heroui/react";
 import Header from './componets/Header';
 import Hero from './componets/Hero';
@@ -11,7 +13,7 @@ import Train from './componets/Train';
 import Allocate from './componets/Allocate';
 import Start from './componets/Start';
 import Footer from './componets/Footer';
-import Testimonial from './componets/Testimonial';
+import Testimonial2 from './componets/Testimonial2';
 
 
 function App() {
@@ -22,7 +24,7 @@ function App() {
     <Brand/>
     <Offer/>
     <Train/>
-    <Testimonial/>
+    <Testimonial2/>
      <Allocate/>
     <Start/>
     <Footer/>

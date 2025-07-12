@@ -2,7 +2,6 @@ import React from 'react';
 import Offer1 from '../assets/Offer1.png';
 import Offer2 from '../assets/Offer2.png';
 import Offer3 from '../assets/Offer3.png';
-import { section } from 'framer-motion/client';
 
 function Offer() {
     const OfferList = [
