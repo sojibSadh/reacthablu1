@@ -10,7 +10,7 @@ import Offer from './componets/Offer';
 import Train from './componets/Train';
 import Allocate from './componets/Allocate';
 import Start from './componets/Start';
-// import Footer from './componets/Footer';
+import Footer from './componets/Footer';
 import Testimonial from './componets/Testimonial';
 
 
@@ -25,7 +25,7 @@ function App() {
     <Testimonial/>
      <Allocate/>
     <Start/>
-  {/*  <Footer/> */}
+    <Footer/>
   </>
   );
 }
