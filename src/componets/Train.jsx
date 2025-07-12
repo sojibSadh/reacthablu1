@@ -30,7 +30,7 @@ function Train() {
                 <p className="text-white/80  md:text-2xl xl:text-base font-light max-sm:text-center">
                     You&apos;re in control. Train your aiDR on elements <br /> of your Marketing strategy.
                 </p>
-                <ul className='grid sm:grid-cols-2 pt-16 max-sm:pt-6'>
+                <ul className='grid sm:grid-cols-2 pt-16 max-sm:pt-6 max-sm:justify-center max-sm:text-center'>
                     {dataList.map((list, i) => (
                         <li key={i} className='mb-4'>
                             <a href="#"> <img className='inline-block' src={list.icon} alt="icon" /> <span className='text-cyan ml-2'> {list.title}</span> </a>
