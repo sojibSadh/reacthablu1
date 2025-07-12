@@ -30,7 +30,7 @@ function Offer() {
                         OfferList.map((item, i) => (
                             <div key={i} className='pr-5'>
                                 <div>
-                                    <img className='max-sm:mx-auto' src={item.icon} alt="offer" />
+                                    <img className='max-sm:mx-auto max-sm:w-12' src={item.icon} alt="offer" />
                                 </div>
                                 <div>
                                     <h4 className='md:text-[28px] text-[20px] text-white py-3 font-semibold'>{item.title}</h4>

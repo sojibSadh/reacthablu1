@@ -13,7 +13,7 @@ function Hero() {
                     Train an aiDR on your ICP and messaging matrix. <br />Activate it on a patch. It will send personalized  <br /> sequences to every target contact.
                 </p>
 
-                <button  className='bg-cyan font-medium text-foreground py-4 px-5 rounded-full  hover:bg-white transition hover:text-cyan'>
+                <button  className='bg-cyan font-medium text-foreground py-4 px-5 rounded-full  hover:bg-white transition hover:text-cyan max-sm:py-2 max-sm:text[14px]'>
                     Sign Up for the Beta <img className='inline-block' src="./arrow.png" alt="" />
                 </button>
             </div>

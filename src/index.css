@@ -7,3 +7,11 @@
 header {
     max-width: 1200px!important;
 }
+.test:hover{
+    color: cyan;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}

@@ -76,7 +76,7 @@ const Header = () => {
           {menuItems.map((item, index) => (
             <NavbarMenuItem key={`${item}-${index}`}>
               <Link
-                className="w-full text-white"
+                className="w-full text-white test"
                 color=''
                 href="#"
                 size="lg"
