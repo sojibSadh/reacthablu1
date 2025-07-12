@@ -15,16 +15,13 @@ import {
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const menuItems = [
-    "Profile",
-    "Dashboard",
-    "Activity",
-    "Analytics",
-    "System",
-    "Deployments",
-    "My Settings",
-    "Team Settings",
-    "Help & Feedback",
-    "Log Out",
+    "Home",
+    "Contact",
+    "Products",
+    "About Us",
+    "Pricing",
+    "Customers",
+    "Solution"
   ];
 
   return (
@@ -75,14 +72,12 @@ const Header = () => {
             </Button>
           </NavbarItem>
         </NavbarContent>
-        <NavbarMenu>
+        <NavbarMenu className="pt-[10%] bg-foreground/70">
           {menuItems.map((item, index) => (
             <NavbarMenuItem key={`${item}-${index}`}>
               <Link
-                className="w-full"
-                color={
-                  index === 2 ? "primary" : index === menuItems.length - 1 ? "danger" : "foreground"
-                }
+                className="w-full text-white"
+                color=''
                 href="#"
                 size="lg"
               >
