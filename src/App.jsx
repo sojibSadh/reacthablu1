@@ -9,7 +9,7 @@ import Brand from './componets/Brand';
 import Offer from './componets/Offer';
 import Train from './componets/Train';
 import Allocate from './componets/Allocate';
-// import Start from './componets/Start';
+import Start from './componets/Start';
 // import Footer from './componets/Footer';
 import Testimonial from './componets/Testimonial';
 
@@ -24,8 +24,8 @@ function App() {
     <Train/>
     <Testimonial/>
      <Allocate/>
-   {/* <Start/>
-    <Footer/> */}
+    <Start/>
+  {/*  <Footer/> */}
   </>
   );
 }

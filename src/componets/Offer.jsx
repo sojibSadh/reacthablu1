@@ -4,8 +4,6 @@ import Offer2 from '../assets/Offer2.png';
 import Offer3 from '../assets/Offer3.png';
 import { section } from 'framer-motion/client';
 
-
-
 function Offer() {
     const OfferList = [
         {
@@ -26,17 +24,17 @@ function Offer() {
     ]
     return (
         <section className='bg-[#002228]'>
-            <div className='max-w-[1200px] mx-auto py-[120px]'>
-                <div className='gap-6 grid grid-cols-1 md:grid-cols-3'>
+            <div className='max-w-[1200px] mx-auto md:py-[120px] py-8'>
+                <div className='gap-6 grid grid-cols-1 md:grid-cols-3 max-sm:text-center'>
                     {
                         OfferList.map((item, i) => (
                             <div key={i} className='pr-5'>
                                 <div>
-                                    <img src={item.icon} alt="offer" />
+                                    <img className='max-sm:mx-auto' src={item.icon} alt="offer" />
                                 </div>
                                 <div>
-                                    <h4 className='text-[28px] text-white py-3 font-semibold'>{item.title}</h4>
-                                    <p className='text-[22px] text-gray/80 font-light'>{item.description}</p>
+                                    <h4 className='md:text-[28px] text-[20px] text-white py-3 font-semibold'>{item.title}</h4>
+                                    <p className='md:text-[22px] text-gray/80 font-light'>{item.description}</p>
                                 </div>
                             </div>
                         ))

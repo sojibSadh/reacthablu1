@@ -26,11 +26,11 @@ function Train() {
                 <h2 className="font-semibold leading-tight text-white md:text-3xl  lg:text-[40px] ">
                     Train your aiDR on your...
                 </h2>
-                <h4 className='text-[40px] font-medium italic text-cyan'>prefered email st|</h4>
-                <p className="text-white/80 w-4/5 text-2xl lg:text-sm xl:text-base font-light">
+                <h4 className='max-sm:text-2xl text-[40px] font-medium italic text-cyan'>prefered email st|</h4>
+                <p className="text-white/80 w-4/5  md:text-2xl xl:text-base font-light">
                     You&apos;re in control. Train your aiDR on elements <br /> of your Marketing strategy.
                 </p>
-                <ul className='grid grid-cols-2 pt-16'>
+                <ul className='grid sm:grid-cols-2 pt-16 max-sm:pt-6'>
                     {dataList.map((list, i) => (
                         <li key={i} className='mb-4'>
                             <a href="#"> <img className='inline-block' src={list.icon} alt="icon" /> <span className='text-cyan ml-2'> {list.title}</span> </a>
