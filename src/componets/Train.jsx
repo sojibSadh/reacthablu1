@@ -23,7 +23,7 @@ function Train() {
     return (
         <section className="bg-[url(./train.png)] bg-no-repeat bg-cover  md:py- 28 py-14 ">
             <div className="space-y-2  max-w-[600px] mx-auto pl-14">
-                <h2 className="font-semibold leading-tight text-white md:text-3xl  lg:text-[40px] ">
+                <h2 className="font-semibold leading-tight text-white md:text-3xl  lg:text-[40px] max-sm:text-center">
                     Train your aiDR on your...
                 </h2>
                 <h4 className='max-sm:text-2xl text-[40px] font-medium italic text-cyan'>prefered email st|</h4>
