@@ -26,7 +26,7 @@ function Train() {
                 <h2 className="font-semibold leading-tight text-white md:text-3xl  lg:text-[40px] max-sm:text-center">
                     Train your aiDR on your...
                 </h2>
-                <h4 className='max-sm:text-2xl text-[40px] font-medium italic text-cyan'>prefered email st|</h4>
+                <h4 className='max-sm:text-2xl text-[40px] font-medium italic text-cyan max-sm:text-center'>prefered email st|</h4>
                 <p className="text-white/80 w-4/5  md:text-2xl xl:text-base font-light">
                     You&apos;re in control. Train your aiDR on elements <br /> of your Marketing strategy.
                 </p>
