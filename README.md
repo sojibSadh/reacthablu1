@@ -1,12 +1,47 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Creative It (React, Tailwind CSS, HeroUi)
 
-Currently, two official plugins are available:
+It features:
+- Fully responsive layouts (mobile + desktop)
+- Animated image sections using AOS
+- Clean, scalable Tailwind CSS components
+- Optimized performance, deployed netlify
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🌐 Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Check out the live site here:
+👉 [**Live Website**](https://hablureact1.netlify.app/)
+
+---
+
+## 🛠 Repository
+
+Browse the code on GitHub:
+👉 [**GitHub Repository**](https://github.com/Sajib99design/reacthablu1.git)
+
+---
+
+## ✨ Features
+
+- React Advance Ui
+- Tailwind CSS for rapid UI styling
+- NextUI/HeroUI css styling 
+- AOS (Animate On Scroll) for smooth scroll-based animations
+- Responsive images with no extra margin/padding
+- Deployed on vite for fast, global delivery
+
+---
+
+## 📐 Based On
+
+This project was developed following the provided **Figma design** and aims to replicate its layout, responsiveness, and visual flow as accurately as possible.
+
+---
+
+## 🚀 Setup (for local development)
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/Sajib99design/reacthablu1.git
