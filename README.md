@@ -23,7 +23,7 @@ Browse the code on GitHub:
 
 ---
 
-## ✨ Features
+## ✨ Feature
 
 - React Advance Ui
 - Tailwind CSS for rapid UI styling
