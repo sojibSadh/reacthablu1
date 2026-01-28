@@ -2,7 +2,7 @@
 # Creative It (React, Tailwind CSS, HeroUi)
 
 It features:
-- Fully responsive layouts (mobile + desktop)
+- Fully responsive layouts (mobile + desktops)
 - Animated image sections using AOS
 - Clean, scalable Tailwind CSS components
 - Optimized performance, deployed netlify
