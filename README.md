@@ -9,7 +9,7 @@ It features:
 
 ---
 
-## 🌐 Live Demo
+## 🌐 Live Demos
 
 Check out the live site here:
 👉 [**Live Website**](https://hablureact1.netlify.app/)
