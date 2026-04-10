@@ -11,7 +11,7 @@ It features:
 
 ## 🌐 Live Demos
 
-Check out the live site here:
+Check out the live site heres:
 👉 [**Live Website**](https://hablureact1.netlify.app/)
 
 ---
