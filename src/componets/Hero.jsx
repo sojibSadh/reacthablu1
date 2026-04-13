@@ -6,7 +6,7 @@ function Hero() {
             <div className="space-y-6  max-w-[1200px] mx-auto max-sm:text-center">
                 <h4 className='text-2xl text-cyan'>AI SDRs (aiDRs)</h4>
                 <h2 className="font-bold  text-white text-[38px]  lg:text-[64px] lg:leading-[5rem] ">
-                    More leads, <br /> less people.
+                    More leads, <br /> less peoples.
                 </h2>
 
                 <p className="text-secondary  md:text-[20px]">
